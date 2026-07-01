@@ -1,0 +1,1081 @@
+codigo_uf,uf,ano,cobertura,vacina
+11,Rondônia,2013,108.15,BCG
+12,Acre,2013,106.16,BCG
+13,Amazonas,2013,116.92,BCG
+14,Roraima,2013,94.17,BCG
+15,Pará,2013,117.68,BCG
+16,Amapá,2013,117.07,BCG
+17,Tocantins,2013,92.02,BCG
+21,Maranhão,2013,113.39,BCG
+22,Piauí,2013,96.5,BCG
+23,Ceará,2013,108.63,BCG
+24,Rio Grande do Norte,2013,109.15,BCG
+25,Paraíba,2013,112.35,BCG
+26,Pernambuco,2013,105.68,BCG
+27,Alagoas,2013,112.47,BCG
+28,Sergipe,2013,96.61,BCG
+29,Bahia,2013,101.39,BCG
+31,Minas Gerais,2013,104.06,BCG
+32,Espírito Santo,2013,104.68,BCG
+33,Rio de Janeiro,2013,106.95,BCG
+35,São Paulo,2013,103.65,BCG
+41,Paraná,2013,110.0,BCG
+42,Santa Catarina,2013,102.22,BCG
+43,Rio Grande do Sul,2013,110.88,BCG
+50,Mato Grosso do Sul,2013,113.25,BCG
+51,Mato Grosso,2013,106.72,BCG
+52,Goiás,2013,116.43,BCG
+53,Distrito Federal,2013,133.19,BCG
+11,Rondônia,2014,110.07,BCG
+12,Acre,2014,104.59,BCG
+13,Amazonas,2014,120.39,BCG
+14,Roraima,2014,103.97,BCG
+15,Pará,2014,114.8,BCG
+16,Amapá,2014,118.8,BCG
+17,Tocantins,2014,103.0,BCG
+21,Maranhão,2014,108.16,BCG
+22,Piauí,2014,96.5,BCG
+23,Ceará,2014,107.4,BCG
+24,Rio Grande do Norte,2014,108.15,BCG
+25,Paraíba,2014,111.91,BCG
+26,Pernambuco,2014,108.55,BCG
+27,Alagoas,2014,108.03,BCG
+28,Sergipe,2014,99.77,BCG
+29,Bahia,2014,101.28,BCG
+31,Minas Gerais,2014,100.85,BCG
+32,Espírito Santo,2014,105.52,BCG
+33,Rio de Janeiro,2014,113.3,BCG
+35,São Paulo,2014,103.46,BCG
+41,Paraná,2014,107.97,BCG
+42,Santa Catarina,2014,107.93,BCG
+43,Rio Grande do Sul,2014,105.1,BCG
+50,Mato Grosso do Sul,2014,129.71,BCG
+51,Mato Grosso,2014,111.78,BCG
+52,Goiás,2014,115.49,BCG
+53,Distrito Federal,2014,113.52,BCG
+11,Rondônia,2015,110.77,BCG
+12,Acre,2015,105.9,BCG
+13,Amazonas,2015,110.79,BCG
+14,Roraima,2015,110.55,BCG
+15,Pará,2015,94.87,BCG
+16,Amapá,2015,121.56,BCG
+17,Tocantins,2015,107.48,BCG
+21,Maranhão,2015,103.64,BCG
+22,Piauí,2015,86.27,BCG
+23,Ceará,2015,114.62,BCG
+24,Rio Grande do Norte,2015,105.9,BCG
+25,Paraíba,2015,105.73,BCG
+26,Pernambuco,2015,110.06,BCG
+27,Alagoas,2015,102.18,BCG
+28,Sergipe,2015,105.8,BCG
+29,Bahia,2015,102.89,BCG
+31,Minas Gerais,2015,102.41,BCG
+32,Espírito Santo,2015,102.26,BCG
+33,Rio de Janeiro,2015,115.06,BCG
+35,São Paulo,2015,102.2,BCG
+41,Paraná,2015,105.66,BCG
+42,Santa Catarina,2015,110.14,BCG
+43,Rio Grande do Sul,2015,103.74,BCG
+50,Mato Grosso do Sul,2015,129.6,BCG
+51,Mato Grosso,2015,109.26,BCG
+52,Goiás,2015,105.3,BCG
+53,Distrito Federal,2015,78.27,BCG
+11,Rondônia,2016,104.9,BCG
+12,Acre,2016,99.23,BCG
+13,Amazonas,2016,95.87,BCG
+14,Roraima,2016,107.95,BCG
+15,Pará,2016,81.62,BCG
+16,Amapá,2016,113.86,BCG
+17,Tocantins,2016,99.23,BCG
+21,Maranhão,2016,90.11,BCG
+22,Piauí,2016,83.9,BCG
+23,Ceará,2016,108.82,BCG
+24,Rio Grande do Norte,2016,89.26,BCG
+25,Paraíba,2016,97.27,BCG
+26,Pernambuco,2016,98.9,BCG
+27,Alagoas,2016,104.97,BCG
+28,Sergipe,2016,97.11,BCG
+29,Bahia,2016,84.07,BCG
+31,Minas Gerais,2016,89.41,BCG
+32,Espírito Santo,2016,90.61,BCG
+33,Rio de Janeiro,2016,106.29,BCG
+35,São Paulo,2016,94.33,BCG
+41,Paraná,2016,94.11,BCG
+42,Santa Catarina,2016,102.01,BCG
+43,Rio Grande do Sul,2016,94.42,BCG
+50,Mato Grosso do Sul,2016,106.14,BCG
+51,Mato Grosso,2016,96.55,BCG
+52,Goiás,2016,92.31,BCG
+53,Distrito Federal,2016,138.11,BCG
+11,Rondônia,2017,97.81,BCG
+12,Acre,2017,96.83,BCG
+13,Amazonas,2017,93.82,BCG
+14,Roraima,2017,116.74,BCG
+15,Pará,2017,85.83,BCG
+16,Amapá,2017,93.89,BCG
+17,Tocantins,2017,104.75,BCG
+21,Maranhão,2017,105.69,BCG
+22,Piauí,2017,93.94,BCG
+23,Ceará,2017,109.59,BCG
+24,Rio Grande do Norte,2017,67.22,BCG
+25,Paraíba,2017,104.0,BCG
+26,Pernambuco,2017,97.25,BCG
+27,Alagoas,2017,110.92,BCG
+28,Sergipe,2017,98.5,BCG
+29,Bahia,2017,86.96,BCG
+31,Minas Gerais,2017,94.81,BCG
+32,Espírito Santo,2017,91.93,BCG
+33,Rio de Janeiro,2017,115.38,BCG
+35,São Paulo,2017,100.95,BCG
+41,Paraná,2017,96.31,BCG
+42,Santa Catarina,2017,87.04,BCG
+43,Rio Grande do Sul,2017,91.29,BCG
+50,Mato Grosso do Sul,2017,122.81,BCG
+51,Mato Grosso,2017,96.61,BCG
+52,Goiás,2017,88.67,BCG
+53,Distrito Federal,2017,93.61,BCG
+11,Rondônia,2018,93.61,BCG
+12,Acre,2018,100.93,BCG
+13,Amazonas,2018,96.97,BCG
+14,Roraima,2018,135.55,BCG
+15,Pará,2018,87.65,BCG
+16,Amapá,2018,102.95,BCG
+17,Tocantins,2018,104.06,BCG
+21,Maranhão,2018,105.11,BCG
+22,Piauí,2018,97.9,BCG
+23,Ceará,2018,104.89,BCG
+24,Rio Grande do Norte,2018,107.7,BCG
+25,Paraíba,2018,105.35,BCG
+26,Pernambuco,2018,106.53,BCG
+27,Alagoas,2018,112.92,BCG
+28,Sergipe,2018,106.33,BCG
+29,Bahia,2018,84.27,BCG
+31,Minas Gerais,2018,100.85,BCG
+32,Espírito Santo,2018,99.98,BCG
+33,Rio de Janeiro,2018,105.72,BCG
+35,São Paulo,2018,101.28,BCG
+41,Paraná,2018,97.93,BCG
+42,Santa Catarina,2018,92.72,BCG
+43,Rio Grande do Sul,2018,90.98,BCG
+50,Mato Grosso do Sul,2018,129.56,BCG
+51,Mato Grosso,2018,106.14,BCG
+52,Goiás,2018,93.58,BCG
+53,Distrito Federal,2018,89.5,BCG
+11,Rondônia,2019,88.11,BCG
+12,Acre,2019,93.86,BCG
+13,Amazonas,2019,93.27,BCG
+14,Roraima,2019,115.88,BCG
+15,Pará,2019,83.06,BCG
+16,Amapá,2019,100.27,BCG
+17,Tocantins,2019,112.41,BCG
+21,Maranhão,2019,83.57,BCG
+22,Piauí,2019,82.58,BCG
+23,Ceará,2019,86.05,BCG
+24,Rio Grande do Norte,2019,85.29,BCG
+25,Paraíba,2019,94.9,BCG
+26,Pernambuco,2019,92.07,BCG
+27,Alagoas,2019,91.54,BCG
+28,Sergipe,2019,85.41,BCG
+29,Bahia,2019,78.05,BCG
+31,Minas Gerais,2019,88.76,BCG
+32,Espírito Santo,2019,90.1,BCG
+33,Rio de Janeiro,2019,79.62,BCG
+35,São Paulo,2019,83.78,BCG
+41,Paraná,2019,91.19,BCG
+42,Santa Catarina,2019,83.43,BCG
+43,Rio Grande do Sul,2019,87.83,BCG
+50,Mato Grosso do Sul,2019,114.25,BCG
+51,Mato Grosso,2019,90.11,BCG
+52,Goiás,2019,86.73,BCG
+53,Distrito Federal,2019,93.24,BCG
+11,Rondônia,2020,75.09,BCG
+12,Acre,2020,71.81,BCG
+13,Amazonas,2020,91.93,BCG
+14,Roraima,2020,99.76,BCG
+15,Pará,2020,72.9,BCG
+16,Amapá,2020,90.67,BCG
+17,Tocantins,2020,91.95,BCG
+21,Maranhão,2020,65.81,BCG
+22,Piauí,2020,79.79,BCG
+23,Ceará,2020,70.22,BCG
+24,Rio Grande do Norte,2020,85.15,BCG
+25,Paraíba,2020,67.48,BCG
+26,Pernambuco,2020,79.28,BCG
+27,Alagoas,2020,72.15,BCG
+28,Sergipe,2020,77.85,BCG
+29,Bahia,2020,78.43,BCG
+31,Minas Gerais,2020,83.14,BCG
+32,Espírito Santo,2020,86.84,BCG
+33,Rio de Janeiro,2020,64.06,BCG
+35,São Paulo,2020,71.45,BCG
+41,Paraná,2020,89.97,BCG
+42,Santa Catarina,2020,83.19,BCG
+43,Rio Grande do Sul,2020,87.6,BCG
+50,Mato Grosso do Sul,2020,64.74,BCG
+51,Mato Grosso,2020,84.98,BCG
+52,Goiás,2020,80.16,BCG
+53,Distrito Federal,2020,91.32,BCG
+11,Rondônia,2021,72.99,BCG
+12,Acre,2021,69.23,BCG
+13,Amazonas,2021,95.59,BCG
+14,Roraima,2021,77.13,BCG
+15,Pará,2021,71.94,BCG
+16,Amapá,2021,95.79,BCG
+17,Tocantins,2021,91.3,BCG
+21,Maranhão,2021,70.78,BCG
+22,Piauí,2021,86.09,BCG
+23,Ceará,2021,72.91,BCG
+24,Rio Grande do Norte,2021,93.0,BCG
+25,Paraíba,2021,69.7,BCG
+26,Pernambuco,2021,82.62,BCG
+27,Alagoas,2021,74.66,BCG
+28,Sergipe,2021,89.54,BCG
+29,Bahia,2021,66.66,BCG
+31,Minas Gerais,2021,78.61,BCG
+32,Espírito Santo,2021,84.43,BCG
+33,Rio de Janeiro,2021,65.3,BCG
+35,São Paulo,2021,68.76,BCG
+41,Paraná,2021,82.17,BCG
+42,Santa Catarina,2021,71.05,BCG
+43,Rio Grande do Sul,2021,79.52,BCG
+50,Mato Grosso do Sul,2021,65.35,BCG
+51,Mato Grosso,2021,81.82,BCG
+52,Goiás,2021,74.25,BCG
+53,Distrito Federal,2021,98.78,BCG
+11,Rondônia,2022,102.79,BCG
+12,Acre,2022,80.47,BCG
+13,Amazonas,2022,117.47,BCG
+14,Roraima,2022,85.17,BCG
+15,Pará,2022,83.09,BCG
+16,Amapá,2022,89.92,BCG
+17,Tocantins,2022,120.44,BCG
+21,Maranhão,2022,83.63,BCG
+22,Piauí,2022,106.14,BCG
+23,Ceará,2022,116.67,BCG
+24,Rio Grande do Norte,2022,103.28,BCG
+25,Paraíba,2022,94.11,BCG
+26,Pernambuco,2022,99.14,BCG
+27,Alagoas,2022,102.74,BCG
+28,Sergipe,2022,106.93,BCG
+29,Bahia,2022,86.66,BCG
+31,Minas Gerais,2022,95.64,BCG
+32,Espírito Santo,2022,63.79,BCG
+33,Rio de Janeiro,2022,76.44,BCG
+35,São Paulo,2022,82.17,BCG
+41,Paraná,2022,90.08,BCG
+42,Santa Catarina,2022,85.43,BCG
+43,Rio Grande do Sul,2022,88.54,BCG
+50,Mato Grosso do Sul,2022,84.13,BCG
+51,Mato Grosso,2022,95.7,BCG
+52,Goiás,2022,79.64,BCG
+53,Distrito Federal,2022,114.88,BCG
+11,Rondônia,2013,100.07,Poliomielite
+12,Acre,2013,92.78,Poliomielite
+13,Amazonas,2013,96.83,Poliomielite
+14,Roraima,2013,86.48,Poliomielite
+15,Pará,2013,96.98,Poliomielite
+16,Amapá,2013,93.31,Poliomielite
+17,Tocantins,2013,96.97,Poliomielite
+21,Maranhão,2013,105.73,Poliomielite
+22,Piauí,2013,93.06,Poliomielite
+23,Ceará,2013,104.79,Poliomielite
+24,Rio Grande do Norte,2013,93.86,Poliomielite
+25,Paraíba,2013,108.24,Poliomielite
+26,Pernambuco,2013,101.06,Poliomielite
+27,Alagoas,2013,97.53,Poliomielite
+28,Sergipe,2013,99.41,Poliomielite
+29,Bahia,2013,96.4,Poliomielite
+31,Minas Gerais,2013,103.24,Poliomielite
+32,Espírito Santo,2013,100.22,Poliomielite
+33,Rio de Janeiro,2013,99.95,Poliomielite
+35,São Paulo,2013,98.95,Poliomielite
+41,Paraná,2013,104.65,Poliomielite
+42,Santa Catarina,2013,97.78,Poliomielite
+43,Rio Grande do Sul,2013,100.28,Poliomielite
+50,Mato Grosso do Sul,2013,118.01,Poliomielite
+51,Mato Grosso,2013,101.2,Poliomielite
+52,Goiás,2013,107.69,Poliomielite
+53,Distrito Federal,2013,112.17,Poliomielite
+11,Rondônia,2014,108.09,Poliomielite
+12,Acre,2014,75.44,Poliomielite
+13,Amazonas,2014,98.86,Poliomielite
+14,Roraima,2014,89.54,Poliomielite
+15,Pará,2014,84.36,Poliomielite
+16,Amapá,2014,80.66,Poliomielite
+17,Tocantins,2014,90.51,Poliomielite
+21,Maranhão,2014,93.42,Poliomielite
+22,Piauí,2014,81.86,Poliomielite
+23,Ceará,2014,103.92,Poliomielite
+24,Rio Grande do Norte,2014,95.63,Poliomielite
+25,Paraíba,2014,100.4,Poliomielite
+26,Pernambuco,2014,101.68,Poliomielite
+27,Alagoas,2014,93.32,Poliomielite
+28,Sergipe,2014,94.25,Poliomielite
+29,Bahia,2014,93.87,Poliomielite
+31,Minas Gerais,2014,96.51,Poliomielite
+32,Espírito Santo,2014,101.25,Poliomielite
+33,Rio de Janeiro,2014,100.89,Poliomielite
+35,São Paulo,2014,95.73,Poliomielite
+41,Paraná,2014,98.76,Poliomielite
+42,Santa Catarina,2014,97.17,Poliomielite
+43,Rio Grande do Sul,2014,95.42,Poliomielite
+50,Mato Grosso do Sul,2014,130.1,Poliomielite
+51,Mato Grosso,2014,102.47,Poliomielite
+52,Goiás,2014,97.65,Poliomielite
+53,Distrito Federal,2014,94.34,Poliomielite
+11,Rondônia,2015,105.44,Poliomielite
+12,Acre,2015,82.74,Poliomielite
+13,Amazonas,2015,104.8,Poliomielite
+14,Roraima,2015,112.28,Poliomielite
+15,Pará,2015,72.09,Poliomielite
+16,Amapá,2015,92.38,Poliomielite
+17,Tocantins,2015,97.22,Poliomielite
+21,Maranhão,2015,100.02,Poliomielite
+22,Piauí,2015,80.92,Poliomielite
+23,Ceará,2015,113.68,Poliomielite
+24,Rio Grande do Norte,2015,97.64,Poliomielite
+25,Paraíba,2015,96.12,Poliomielite
+26,Pernambuco,2015,109.29,Poliomielite
+27,Alagoas,2015,94.25,Poliomielite
+28,Sergipe,2015,93.69,Poliomielite
+29,Bahia,2015,95.42,Poliomielite
+31,Minas Gerais,2015,97.12,Poliomielite
+32,Espírito Santo,2015,99.39,Poliomielite
+33,Rio de Janeiro,2015,107.03,Poliomielite
+35,São Paulo,2015,99.68,Poliomielite
+41,Paraná,2015,97.39,Poliomielite
+42,Santa Catarina,2015,102.43,Poliomielite
+43,Rio Grande do Sul,2015,89.2,Poliomielite
+50,Mato Grosso do Sul,2015,120.36,Poliomielite
+51,Mato Grosso,2015,102.81,Poliomielite
+52,Goiás,2015,95.88,Poliomielite
+53,Distrito Federal,2015,74.92,Poliomielite
+11,Rondônia,2016,105.44,Poliomielite
+12,Acre,2016,71.27,Poliomielite
+13,Amazonas,2016,76.24,Poliomielite
+14,Roraima,2016,88.45,Poliomielite
+15,Pará,2016,63.15,Poliomielite
+16,Amapá,2016,47.59,Poliomielite
+17,Tocantins,2016,84.77,Poliomielite
+21,Maranhão,2016,69.43,Poliomielite
+22,Piauí,2016,70.69,Poliomielite
+23,Ceará,2016,107.89,Poliomielite
+24,Rio Grande do Norte,2016,70.25,Poliomielite
+25,Paraíba,2016,85.46,Poliomielite
+26,Pernambuco,2016,90.38,Poliomielite
+27,Alagoas,2016,80.07,Poliomielite
+28,Sergipe,2016,78.29,Poliomielite
+29,Bahia,2016,70.72,Poliomielite
+31,Minas Gerais,2016,88.29,Poliomielite
+32,Espírito Santo,2016,89.28,Poliomielite
+33,Rio de Janeiro,2016,89.93,Poliomielite
+35,São Paulo,2016,83.84,Poliomielite
+41,Paraná,2016,87.54,Poliomielite
+42,Santa Catarina,2016,92.12,Poliomielite
+43,Rio Grande do Sul,2016,84.46,Poliomielite
+50,Mato Grosso do Sul,2016,93.78,Poliomielite
+51,Mato Grosso,2016,90.64,Poliomielite
+52,Goiás,2016,82.1,Poliomielite
+53,Distrito Federal,2016,136.83,Poliomielite
+11,Rondônia,2017,108.18,Poliomielite
+12,Acre,2017,74.01,Poliomielite
+13,Amazonas,2017,76.43,Poliomielite
+14,Roraima,2017,90.52,Poliomielite
+15,Pará,2017,67.63,Poliomielite
+16,Amapá,2017,63.18,Poliomielite
+17,Tocantins,2017,86.05,Poliomielite
+21,Maranhão,2017,74.26,Poliomielite
+22,Piauí,2017,78.1,Poliomielite
+23,Ceará,2017,97.34,Poliomielite
+24,Rio Grande do Norte,2017,69.52,Poliomielite
+25,Paraíba,2017,82.34,Poliomielite
+26,Pernambuco,2017,84.67,Poliomielite
+27,Alagoas,2017,83.88,Poliomielite
+28,Sergipe,2017,79.0,Poliomielite
+29,Bahia,2017,78.34,Poliomielite
+31,Minas Gerais,2017,87.07,Poliomielite
+32,Espírito Santo,2017,83.22,Poliomielite
+33,Rio de Janeiro,2017,88.76,Poliomielite
+35,São Paulo,2017,87.71,Poliomielite
+41,Paraná,2017,90.41,Poliomielite
+42,Santa Catarina,2017,95.11,Poliomielite
+43,Rio Grande do Sul,2017,85.73,Poliomielite
+50,Mato Grosso do Sul,2017,91.49,Poliomielite
+51,Mato Grosso,2017,84.07,Poliomielite
+52,Goiás,2017,81.56,Poliomielite
+53,Distrito Federal,2017,84.41,Poliomielite
+11,Rondônia,2018,101.89,Poliomielite
+12,Acre,2018,78.34,Poliomielite
+13,Amazonas,2018,79.25,Poliomielite
+14,Roraima,2018,79.79,Poliomielite
+15,Pará,2018,69.09,Poliomielite
+16,Amapá,2018,68.74,Poliomielite
+17,Tocantins,2018,91.68,Poliomielite
+21,Maranhão,2018,80.61,Poliomielite
+22,Piauí,2018,83.71,Poliomielite
+23,Ceará,2018,111.08,Poliomielite
+24,Rio Grande do Norte,2018,90.32,Poliomielite
+25,Paraíba,2018,92.26,Poliomielite
+26,Pernambuco,2018,94.72,Poliomielite
+27,Alagoas,2018,96.13,Poliomielite
+28,Sergipe,2018,89.74,Poliomielite
+29,Bahia,2018,78.25,Poliomielite
+31,Minas Gerais,2018,97.75,Poliomielite
+32,Espírito Santo,2018,90.95,Poliomielite
+33,Rio de Janeiro,2018,87.48,Poliomielite
+35,São Paulo,2018,92.55,Poliomielite
+41,Paraná,2018,90.88,Poliomielite
+42,Santa Catarina,2018,94.59,Poliomielite
+43,Rio Grande do Sul,2018,85.7,Poliomielite
+50,Mato Grosso do Sul,2018,95.95,Poliomielite
+51,Mato Grosso,2018,90.27,Poliomielite
+52,Goiás,2018,85.54,Poliomielite
+53,Distrito Federal,2018,86.03,Poliomielite
+11,Rondônia,2019,98.26,Poliomielite
+12,Acre,2019,81.73,Poliomielite
+13,Amazonas,2019,83.29,Poliomielite
+14,Roraima,2019,79.76,Poliomielite
+15,Pará,2019,72.72,Poliomielite
+16,Amapá,2019,73.01,Poliomielite
+17,Tocantins,2019,88.17,Poliomielite
+21,Maranhão,2019,75.73,Poliomielite
+22,Piauí,2019,81.85,Poliomielite
+23,Ceará,2019,93.54,Poliomielite
+24,Rio Grande do Norte,2019,80.74,Poliomielite
+25,Paraíba,2019,92.6,Poliomielite
+26,Pernambuco,2019,85.64,Poliomielite
+27,Alagoas,2019,87.89,Poliomielite
+28,Sergipe,2019,80.86,Poliomielite
+29,Bahia,2019,74.83,Poliomielite
+31,Minas Gerais,2019,88.52,Poliomielite
+32,Espírito Santo,2019,86.68,Poliomielite
+33,Rio de Janeiro,2019,73.62,Poliomielite
+35,São Paulo,2019,86.62,Poliomielite
+41,Paraná,2019,89.69,Poliomielite
+42,Santa Catarina,2019,93.68,Poliomielite
+43,Rio Grande do Sul,2019,85.09,Poliomielite
+50,Mato Grosso do Sul,2019,94.41,Poliomielite
+51,Mato Grosso,2019,85.81,Poliomielite
+52,Goiás,2019,81.52,Poliomielite
+53,Distrito Federal,2019,84.32,Poliomielite
+11,Rondônia,2020,82.51,Poliomielite
+12,Acre,2020,63.08,Poliomielite
+13,Amazonas,2020,68.17,Poliomielite
+14,Roraima,2020,73.67,Poliomielite
+15,Pará,2020,59.78,Poliomielite
+16,Amapá,2020,42.68,Poliomielite
+17,Tocantins,2020,84.42,Poliomielite
+21,Maranhão,2020,60.91,Poliomielite
+22,Piauí,2020,72.96,Poliomielite
+23,Ceará,2020,88.42,Poliomielite
+24,Rio Grande do Norte,2020,70.58,Poliomielite
+25,Paraíba,2020,73.77,Poliomielite
+26,Pernambuco,2020,72.78,Poliomielite
+27,Alagoas,2020,74.4,Poliomielite
+28,Sergipe,2020,71.62,Poliomielite
+29,Bahia,2020,70.86,Poliomielite
+31,Minas Gerais,2020,86.61,Poliomielite
+32,Espírito Santo,2020,81.66,Poliomielite
+33,Rio de Janeiro,2020,56.84,Poliomielite
+35,São Paulo,2020,82.25,Poliomielite
+41,Paraná,2020,86.35,Poliomielite
+42,Santa Catarina,2020,88.7,Poliomielite
+43,Rio Grande do Sul,2020,85.14,Poliomielite
+50,Mato Grosso do Sul,2020,83.16,Poliomielite
+51,Mato Grosso,2020,81.5,Poliomielite
+52,Goiás,2020,78.13,Poliomielite
+53,Distrito Federal,2020,81.54,Poliomielite
+11,Rondônia,2021,74.58,Poliomielite
+12,Acre,2021,61.78,Poliomielite
+13,Amazonas,2021,67.77,Poliomielite
+14,Roraima,2021,50.96,Poliomielite
+15,Pará,2021,56.78,Poliomielite
+16,Amapá,2021,45.37,Poliomielite
+17,Tocantins,2021,80.22,Poliomielite
+21,Maranhão,2021,61.97,Poliomielite
+22,Piauí,2021,72.84,Poliomielite
+23,Ceará,2021,74.27,Poliomielite
+24,Rio Grande do Norte,2021,71.67,Poliomielite
+25,Paraíba,2021,70.31,Poliomielite
+26,Pernambuco,2021,69.01,Poliomielite
+27,Alagoas,2021,77.55,Poliomielite
+28,Sergipe,2021,72.27,Poliomielite
+29,Bahia,2021,63.06,Poliomielite
+31,Minas Gerais,2021,76.48,Poliomielite
+32,Espírito Santo,2021,77.41,Poliomielite
+33,Rio de Janeiro,2021,55.81,Poliomielite
+35,São Paulo,2021,74.4,Poliomielite
+41,Paraná,2021,80.75,Poliomielite
+42,Santa Catarina,2021,83.76,Poliomielite
+43,Rio Grande do Sul,2021,76.35,Poliomielite
+50,Mato Grosso do Sul,2021,75.71,Poliomielite
+51,Mato Grosso,2021,76.29,Poliomielite
+52,Goiás,2021,72.72,Poliomielite
+53,Distrito Federal,2021,73.23,Poliomielite
+11,Rondônia,2022,82.3,Poliomielite
+12,Acre,2022,71.95,Poliomielite
+13,Amazonas,2022,77.51,Poliomielite
+14,Roraima,2022,60.13,Poliomielite
+15,Pará,2022,66.09,Poliomielite
+16,Amapá,2022,52.87,Poliomielite
+17,Tocantins,2022,85.42,Poliomielite
+21,Maranhão,2022,74.37,Poliomielite
+22,Piauí,2022,87.0,Poliomielite
+23,Ceará,2022,86.48,Poliomielite
+24,Rio Grande do Norte,2022,74.96,Poliomielite
+25,Paraíba,2022,72.58,Poliomielite
+26,Pernambuco,2022,76.25,Poliomielite
+27,Alagoas,2022,86.36,Poliomielite
+28,Sergipe,2022,80.1,Poliomielite
+29,Bahia,2022,75.47,Poliomielite
+31,Minas Gerais,2022,82.94,Poliomielite
+32,Espírito Santo,2022,79.0,Poliomielite
+33,Rio de Janeiro,2022,58.89,Poliomielite
+35,São Paulo,2022,77.14,Poliomielite
+41,Paraná,2022,84.12,Poliomielite
+42,Santa Catarina,2022,87.32,Poliomielite
+43,Rio Grande do Sul,2022,78.8,Poliomielite
+50,Mato Grosso do Sul,2022,86.07,Poliomielite
+51,Mato Grosso,2022,84.17,Poliomielite
+52,Goiás,2022,76.68,Poliomielite
+53,Distrito Federal,2022,78.33,Poliomielite
+11,Rondônia,2013,38.3,Tríplice viral
+12,Acre,2013,12.84,Tríplice viral
+13,Amazonas,2013,30.44,Tríplice viral
+14,Roraima,2013,18.29,Tríplice viral
+15,Pará,2013,20.14,Tríplice viral
+16,Amapá,2013,30.17,Tríplice viral
+17,Tocantins,2013,34.67,Tríplice viral
+21,Maranhão,2013,23.44,Tríplice viral
+22,Piauí,2013,30.63,Tríplice viral
+23,Ceará,2013,27.6,Tríplice viral
+24,Rio Grande do Norte,2013,30.43,Tríplice viral
+25,Paraíba,2013,34.19,Tríplice viral
+26,Pernambuco,2013,30.85,Tríplice viral
+27,Alagoas,2013,26.91,Tríplice viral
+28,Sergipe,2013,42.14,Tríplice viral
+29,Bahia,2013,36.87,Tríplice viral
+31,Minas Gerais,2013,39.15,Tríplice viral
+32,Espírito Santo,2013,39.84,Tríplice viral
+33,Rio de Janeiro,2013,34.03,Tríplice viral
+35,São Paulo,2013,37.63,Tríplice viral
+41,Paraná,2013,40.2,Tríplice viral
+42,Santa Catarina,2013,35.84,Tríplice viral
+43,Rio Grande do Sul,2013,37.03,Tríplice viral
+50,Mato Grosso do Sul,2013,35.91,Tríplice viral
+51,Mato Grosso,2013,30.52,Tríplice viral
+52,Goiás,2013,32.5,Tríplice viral
+53,Distrito Federal,2013,44.44,Tríplice viral
+11,Rondônia,2014,112.79,Tríplice viral
+12,Acre,2014,59.3,Tríplice viral
+13,Amazonas,2014,84.84,Tríplice viral
+14,Roraima,2014,89.83,Tríplice viral
+15,Pará,2014,57.71,Tríplice viral
+16,Amapá,2014,80.98,Tríplice viral
+17,Tocantins,2014,82.22,Tríplice viral
+21,Maranhão,2014,87.39,Tríplice viral
+22,Piauí,2014,61.99,Tríplice viral
+23,Ceará,2014,127.95,Tríplice viral
+24,Rio Grande do Norte,2014,91.87,Tríplice viral
+25,Paraíba,2014,77.44,Tríplice viral
+26,Pernambuco,2014,91.13,Tríplice viral
+27,Alagoas,2014,90.2,Tríplice viral
+28,Sergipe,2014,77.26,Tríplice viral
+29,Bahia,2014,88.8,Tríplice viral
+31,Minas Gerais,2014,78.4,Tríplice viral
+32,Espírito Santo,2014,98.45,Tríplice viral
+33,Rio de Janeiro,2014,96.72,Tríplice viral
+35,São Paulo,2014,98.07,Tríplice viral
+41,Paraná,2014,88.21,Tríplice viral
+42,Santa Catarina,2014,93.16,Tríplice viral
+43,Rio Grande do Sul,2014,81.82,Tríplice viral
+50,Mato Grosso do Sul,2014,103.64,Tríplice viral
+51,Mato Grosso,2014,99.51,Tríplice viral
+52,Goiás,2014,85.99,Tríplice viral
+53,Distrito Federal,2014,93.36,Tríplice viral
+11,Rondônia,2015,94.63,Tríplice viral
+12,Acre,2015,49.3,Tríplice viral
+13,Amazonas,2015,77.43,Tríplice viral
+14,Roraima,2015,92.53,Tríplice viral
+15,Pará,2015,37.78,Tríplice viral
+16,Amapá,2015,71.14,Tríplice viral
+17,Tocantins,2015,52.17,Tríplice viral
+21,Maranhão,2015,72.06,Tríplice viral
+22,Piauí,2015,48.23,Tríplice viral
+23,Ceará,2015,94.42,Tríplice viral
+24,Rio Grande do Norte,2015,79.93,Tríplice viral
+25,Paraíba,2015,57.99,Tríplice viral
+26,Pernambuco,2015,85.85,Tríplice viral
+27,Alagoas,2015,81.19,Tríplice viral
+28,Sergipe,2015,74.59,Tríplice viral
+29,Bahia,2015,73.66,Tríplice viral
+31,Minas Gerais,2015,66.03,Tríplice viral
+32,Espírito Santo,2015,85.88,Tríplice viral
+33,Rio de Janeiro,2015,90.55,Tríplice viral
+35,São Paulo,2015,94.64,Tríplice viral
+41,Paraná,2015,74.68,Tríplice viral
+42,Santa Catarina,2015,80.7,Tríplice viral
+43,Rio Grande do Sul,2015,59.93,Tríplice viral
+50,Mato Grosso do Sul,2015,70.74,Tríplice viral
+51,Mato Grosso,2015,76.73,Tríplice viral
+52,Goiás,2015,63.24,Tríplice viral
+53,Distrito Federal,2015,66.33,Tríplice viral
+11,Rondônia,2016,94.97,Tríplice viral
+12,Acre,2016,64.45,Tríplice viral
+13,Amazonas,2016,75.8,Tríplice viral
+14,Roraima,2016,83.64,Tríplice viral
+15,Pará,2016,62.39,Tríplice viral
+16,Amapá,2016,86.08,Tríplice viral
+17,Tocantins,2016,88.32,Tríplice viral
+21,Maranhão,2016,51.68,Tríplice viral
+22,Piauí,2016,65.66,Tríplice viral
+23,Ceará,2016,91.06,Tríplice viral
+24,Rio Grande do Norte,2016,54.28,Tríplice viral
+25,Paraíba,2016,61.22,Tríplice viral
+26,Pernambuco,2016,70.12,Tríplice viral
+27,Alagoas,2016,63.96,Tríplice viral
+28,Sergipe,2016,75.19,Tríplice viral
+29,Bahia,2016,59.46,Tríplice viral
+31,Minas Gerais,2016,91.82,Tríplice viral
+32,Espírito Santo,2016,81.52,Tríplice viral
+33,Rio de Janeiro,2016,73.79,Tríplice viral
+35,São Paulo,2016,80.97,Tríplice viral
+41,Paraná,2016,92.63,Tríplice viral
+42,Santa Catarina,2016,99.59,Tríplice viral
+43,Rio Grande do Sul,2016,87.12,Tríplice viral
+50,Mato Grosso do Sul,2016,94.94,Tríplice viral
+51,Mato Grosso,2016,85.98,Tríplice viral
+52,Goiás,2016,85.2,Tríplice viral
+53,Distrito Federal,2016,129.99,Tríplice viral
+11,Rondônia,2017,76.25,Tríplice viral
+12,Acre,2017,52.16,Tríplice viral
+13,Amazonas,2017,59.11,Tríplice viral
+14,Roraima,2017,84.65,Tríplice viral
+15,Pará,2017,51.04,Tríplice viral
+16,Amapá,2017,56.4,Tríplice viral
+17,Tocantins,2017,60.91,Tríplice viral
+21,Maranhão,2017,21.33,Tríplice viral
+22,Piauí,2017,18.78,Tríplice viral
+23,Ceará,2017,36.06,Tríplice viral
+24,Rio Grande do Norte,2017,18.37,Tríplice viral
+25,Paraíba,2017,23.84,Tríplice viral
+26,Pernambuco,2017,30.03,Tríplice viral
+27,Alagoas,2017,31.1,Tríplice viral
+28,Sergipe,2017,24.57,Tríplice viral
+29,Bahia,2017,22.4,Tríplice viral
+31,Minas Gerais,2017,18.48,Tríplice viral
+32,Espírito Santo,2017,16.06,Tríplice viral
+33,Rio de Janeiro,2017,19.54,Tríplice viral
+35,São Paulo,2017,20.98,Tríplice viral
+41,Paraná,2017,69.77,Tríplice viral
+42,Santa Catarina,2017,67.25,Tríplice viral
+43,Rio Grande do Sul,2017,62.47,Tríplice viral
+50,Mato Grosso do Sul,2017,66.2,Tríplice viral
+51,Mato Grosso,2017,64.68,Tríplice viral
+52,Goiás,2017,59.59,Tríplice viral
+53,Distrito Federal,2017,66.1,Tríplice viral
+11,Rondônia,2018,53.43,Tríplice viral
+12,Acre,2018,59.06,Tríplice viral
+13,Amazonas,2018,58.52,Tríplice viral
+14,Roraima,2018,71.34,Tríplice viral
+15,Pará,2018,48.29,Tríplice viral
+16,Amapá,2018,51.17,Tríplice viral
+17,Tocantins,2018,65.92,Tríplice viral
+21,Maranhão,2018,15.44,Tríplice viral
+22,Piauí,2018,2.94,Tríplice viral
+23,Ceará,2018,11.75,Tríplice viral
+24,Rio Grande do Norte,2018,13.52,Tríplice viral
+25,Paraíba,2018,8.61,Tríplice viral
+26,Pernambuco,2018,11.29,Tríplice viral
+27,Alagoas,2018,19.86,Tríplice viral
+28,Sergipe,2018,1.23,Tríplice viral
+29,Bahia,2018,5.46,Tríplice viral
+31,Minas Gerais,2018,9.73,Tríplice viral
+32,Espírito Santo,2018,7.34,Tríplice viral
+33,Rio de Janeiro,2018,8.88,Tríplice viral
+35,São Paulo,2018,37.16,Tríplice viral
+41,Paraná,2018,63.22,Tríplice viral
+42,Santa Catarina,2018,68.81,Tríplice viral
+43,Rio Grande do Sul,2018,68.63,Tríplice viral
+50,Mato Grosso do Sul,2018,78.83,Tríplice viral
+51,Mato Grosso,2018,60.46,Tríplice viral
+52,Goiás,2018,59.51,Tríplice viral
+53,Distrito Federal,2018,82.12,Tríplice viral
+11,Rondônia,2019,70.74,Tríplice viral
+12,Acre,2019,75.68,Tríplice viral
+13,Amazonas,2019,72.71,Tríplice viral
+14,Roraima,2019,74.53,Tríplice viral
+15,Pará,2019,59.9,Tríplice viral
+16,Amapá,2019,64.43,Tríplice viral
+17,Tocantins,2019,81.35,Tríplice viral
+21,Maranhão,2019,6.94,Tríplice viral
+22,Piauí,2019,2.14,Tríplice viral
+23,Ceará,2019,13.04,Tríplice viral
+24,Rio Grande do Norte,2019,3.74,Tríplice viral
+25,Paraíba,2019,13.22,Tríplice viral
+26,Pernambuco,2019,7.78,Tríplice viral
+27,Alagoas,2019,3.43,Tríplice viral
+28,Sergipe,2019,0.81,Tríplice viral
+29,Bahia,2019,1.79,Tríplice viral
+31,Minas Gerais,2019,1.37,Tríplice viral
+32,Espírito Santo,2019,3.42,Tríplice viral
+33,Rio de Janeiro,2019,6.76,Tríplice viral
+35,São Paulo,2019,26.81,Tríplice viral
+41,Paraná,2019,83.02,Tríplice viral
+42,Santa Catarina,2019,89.32,Tríplice viral
+43,Rio Grande do Sul,2019,82.89,Tríplice viral
+50,Mato Grosso do Sul,2019,81.86,Tríplice viral
+51,Mato Grosso,2019,79.44,Tríplice viral
+52,Goiás,2019,71.18,Tríplice viral
+53,Distrito Federal,2019,84.27,Tríplice viral
+11,Rondônia,2020,47.65,Tríplice viral
+12,Acre,2020,34.11,Tríplice viral
+13,Amazonas,2020,34.43,Tríplice viral
+14,Roraima,2020,42.46,Tríplice viral
+15,Pará,2020,46.49,Tríplice viral
+16,Amapá,2020,27.72,Tríplice viral
+17,Tocantins,2020,55.31,Tríplice viral
+21,Maranhão,2020,1.97,Tríplice viral
+22,Piauí,2020,5.76,Tríplice viral
+23,Ceará,2020,2.56,Tríplice viral
+24,Rio Grande do Norte,2020,6.63,Tríplice viral
+25,Paraíba,2020,6.39,Tríplice viral
+26,Pernambuco,2020,3.97,Tríplice viral
+27,Alagoas,2020,6.02,Tríplice viral
+28,Sergipe,2020,2.29,Tríplice viral
+29,Bahia,2020,4.8,Tríplice viral
+31,Minas Gerais,2020,3.03,Tríplice viral
+32,Espírito Santo,2020,1.37,Tríplice viral
+33,Rio de Janeiro,2020,12.36,Tríplice viral
+35,São Paulo,2020,2.64,Tríplice viral
+41,Paraná,2020,56.24,Tríplice viral
+42,Santa Catarina,2020,61.0,Tríplice viral
+43,Rio Grande do Sul,2020,58.72,Tríplice viral
+50,Mato Grosso do Sul,2020,56.33,Tríplice viral
+51,Mato Grosso,2020,61.48,Tríplice viral
+52,Goiás,2020,52.86,Tríplice viral
+53,Distrito Federal,2020,42.89,Tríplice viral
+11,Rondônia,2021,1.51,Tríplice viral
+12,Acre,2021,1.63,Tríplice viral
+13,Amazonas,2021,1.31,Tríplice viral
+14,Roraima,2021,1.65,Tríplice viral
+15,Pará,2021,2.55,Tríplice viral
+16,Amapá,2021,0.96,Tríplice viral
+17,Tocantins,2021,4.3,Tríplice viral
+21,Maranhão,2021,3.11,Tríplice viral
+22,Piauí,2021,8.8,Tríplice viral
+23,Ceará,2021,3.87,Tríplice viral
+24,Rio Grande do Norte,2021,7.57,Tríplice viral
+25,Paraíba,2021,7.58,Tríplice viral
+26,Pernambuco,2021,4.65,Tríplice viral
+27,Alagoas,2021,8.2,Tríplice viral
+28,Sergipe,2021,7.56,Tríplice viral
+29,Bahia,2021,6.33,Tríplice viral
+31,Minas Gerais,2021,4.83,Tríplice viral
+32,Espírito Santo,2021,1.65,Tríplice viral
+33,Rio de Janeiro,2021,12.74,Tríplice viral
+35,São Paulo,2021,2.8,Tríplice viral
+41,Paraná,2021,16.3,Tríplice viral
+42,Santa Catarina,2021,19.53,Tríplice viral
+43,Rio Grande do Sul,2021,3.44,Tríplice viral
+50,Mato Grosso do Sul,2021,5.21,Tríplice viral
+51,Mato Grosso,2021,6.84,Tríplice viral
+52,Goiás,2021,7.41,Tríplice viral
+53,Distrito Federal,2021,1.95,Tríplice viral
+11,Rondônia,2022,9.81,Tríplice viral
+12,Acre,2022,3.64,Tríplice viral
+13,Amazonas,2022,12.62,Tríplice viral
+14,Roraima,2022,5.48,Tríplice viral
+15,Pará,2022,4.96,Tríplice viral
+16,Amapá,2022,8.87,Tríplice viral
+17,Tocantins,2022,14.31,Tríplice viral
+21,Maranhão,2022,11.58,Tríplice viral
+22,Piauí,2022,13.31,Tríplice viral
+23,Ceará,2022,6.95,Tríplice viral
+24,Rio Grande do Norte,2022,13.12,Tríplice viral
+25,Paraíba,2022,11.71,Tríplice viral
+26,Pernambuco,2022,10.55,Tríplice viral
+27,Alagoas,2022,16.94,Tríplice viral
+28,Sergipe,2022,11.77,Tríplice viral
+29,Bahia,2022,14.69,Tríplice viral
+31,Minas Gerais,2022,8.93,Tríplice viral
+32,Espírito Santo,2022,0.93,Tríplice viral
+33,Rio de Janeiro,2022,14.17,Tríplice viral
+35,São Paulo,2022,7.53,Tríplice viral
+41,Paraná,2022,14.24,Tríplice viral
+42,Santa Catarina,2022,9.21,Tríplice viral
+43,Rio Grande do Sul,2022,9.23,Tríplice viral
+50,Mato Grosso do Sul,2022,14.8,Tríplice viral
+51,Mato Grosso,2022,9.58,Tríplice viral
+52,Goiás,2022,18.18,Tríplice viral
+53,Distrito Federal,2022,2.29,Tríplice viral
+11,Rondônia,2013,97.69,Pentavalente
+12,Acre,2013,82.58,Pentavalente
+13,Amazonas,2013,86.26,Pentavalente
+14,Roraima,2013,83.04,Pentavalente
+15,Pará,2013,89.61,Pentavalente
+16,Amapá,2013,91.34,Pentavalente
+17,Tocantins,2013,98.31,Pentavalente
+21,Maranhão,2013,97.38,Pentavalente
+22,Piauí,2013,90.77,Pentavalente
+23,Ceará,2013,98.96,Pentavalente
+24,Rio Grande do Norte,2013,88.26,Pentavalente
+25,Paraíba,2013,98.36,Pentavalente
+26,Pernambuco,2013,97.32,Pentavalente
+27,Alagoas,2013,92.08,Pentavalente
+28,Sergipe,2013,99.4,Pentavalente
+29,Bahia,2013,91.33,Pentavalente
+31,Minas Gerais,2013,103.23,Pentavalente
+32,Espírito Santo,2013,98.02,Pentavalente
+33,Rio de Janeiro,2013,92.73,Pentavalente
+35,São Paulo,2013,100.16,Pentavalente
+41,Paraná,2013,103.55,Pentavalente
+42,Santa Catarina,2013,98.23,Pentavalente
+43,Rio Grande do Sul,2013,102.15,Pentavalente
+50,Mato Grosso do Sul,2013,112.52,Pentavalente
+51,Mato Grosso,2013,98.24,Pentavalente
+52,Goiás,2013,106.66,Pentavalente
+53,Distrito Federal,2013,106.86,Pentavalente
+11,Rondônia,2014,105.82,Pentavalente
+12,Acre,2014,65.37,Pentavalente
+13,Amazonas,2014,89.79,Pentavalente
+14,Roraima,2014,87.06,Pentavalente
+15,Pará,2014,83.29,Pentavalente
+16,Amapá,2014,78.15,Pentavalente
+17,Tocantins,2014,94.01,Pentavalente
+21,Maranhão,2014,89.42,Pentavalente
+22,Piauí,2014,82.79,Pentavalente
+23,Ceará,2014,99.22,Pentavalente
+24,Rio Grande do Norte,2014,89.94,Pentavalente
+25,Paraíba,2014,93.34,Pentavalente
+26,Pernambuco,2014,98.57,Pentavalente
+27,Alagoas,2014,90.43,Pentavalente
+28,Sergipe,2014,94.39,Pentavalente
+29,Bahia,2014,92.11,Pentavalente
+31,Minas Gerais,2014,99.06,Pentavalente
+32,Espírito Santo,2014,101.02,Pentavalente
+33,Rio de Janeiro,2014,94.62,Pentavalente
+35,São Paulo,2014,96.84,Pentavalente
+41,Paraná,2014,99.55,Pentavalente
+42,Santa Catarina,2014,99.42,Pentavalente
+43,Rio Grande do Sul,2014,95.54,Pentavalente
+50,Mato Grosso do Sul,2014,129.67,Pentavalente
+51,Mato Grosso,2014,101.63,Pentavalente
+52,Goiás,2014,94.59,Pentavalente
+53,Distrito Federal,2014,95.24,Pentavalente
+11,Rondônia,2015,104.63,Pentavalente
+12,Acre,2015,81.3,Pentavalente
+13,Amazonas,2015,94.65,Pentavalente
+14,Roraima,2015,96.87,Pentavalente
+15,Pará,2015,73.15,Pentavalente
+16,Amapá,2015,84.67,Pentavalente
+17,Tocantins,2015,98.76,Pentavalente
+21,Maranhão,2015,91.8,Pentavalente
+22,Piauí,2015,82.32,Pentavalente
+23,Ceará,2015,106.8,Pentavalente
+24,Rio Grande do Norte,2015,90.8,Pentavalente
+25,Paraíba,2015,93.65,Pentavalente
+26,Pernambuco,2015,103.69,Pentavalente
+27,Alagoas,2015,91.59,Pentavalente
+28,Sergipe,2015,94.07,Pentavalente
+29,Bahia,2015,94.2,Pentavalente
+31,Minas Gerais,2015,101.0,Pentavalente
+32,Espírito Santo,2015,100.23,Pentavalente
+33,Rio de Janeiro,2015,99.72,Pentavalente
+35,São Paulo,2015,99.76,Pentavalente
+41,Paraná,2015,101.61,Pentavalente
+42,Santa Catarina,2015,105.55,Pentavalente
+43,Rio Grande do Sul,2015,91.77,Pentavalente
+50,Mato Grosso do Sul,2015,118.36,Pentavalente
+51,Mato Grosso,2015,101.82,Pentavalente
+52,Goiás,2015,95.43,Pentavalente
+53,Distrito Federal,2015,67.73,Pentavalente
+11,Rondônia,2016,103.52,Pentavalente
+12,Acre,2016,75.02,Pentavalente
+13,Amazonas,2016,82.42,Pentavalente
+14,Roraima,2016,91.68,Pentavalente
+15,Pará,2016,67.08,Pentavalente
+16,Amapá,2016,92.84,Pentavalente
+17,Tocantins,2016,88.14,Pentavalente
+21,Maranhão,2016,73.31,Pentavalente
+22,Piauí,2016,79.16,Pentavalente
+23,Ceará,2016,111.66,Pentavalente
+24,Rio Grande do Norte,2016,76.37,Pentavalente
+25,Paraíba,2016,87.67,Pentavalente
+26,Pernambuco,2016,94.43,Pentavalente
+27,Alagoas,2016,84.81,Pentavalente
+28,Sergipe,2016,81.91,Pentavalente
+29,Bahia,2016,77.82,Pentavalente
+31,Minas Gerais,2016,93.28,Pentavalente
+32,Espírito Santo,2016,92.27,Pentavalente
+33,Rio de Janeiro,2016,97.11,Pentavalente
+35,São Paulo,2016,88.94,Pentavalente
+41,Paraná,2016,91.7,Pentavalente
+42,Santa Catarina,2016,97.96,Pentavalente
+43,Rio Grande do Sul,2016,88.43,Pentavalente
+50,Mato Grosso do Sul,2016,99.06,Pentavalente
+51,Mato Grosso,2016,95.48,Pentavalente
+52,Goiás,2016,84.94,Pentavalente
+53,Distrito Federal,2016,140.41,Pentavalente
+11,Rondônia,2017,109.23,Pentavalente
+12,Acre,2017,72.46,Pentavalente
+13,Amazonas,2017,75.99,Pentavalente
+14,Roraima,2017,94.33,Pentavalente
+15,Pará,2017,61.24,Pentavalente
+16,Amapá,2017,60.96,Pentavalente
+17,Tocantins,2017,86.27,Pentavalente
+21,Maranhão,2017,73.6,Pentavalente
+22,Piauí,2017,76.3,Pentavalente
+23,Ceará,2017,96.99,Pentavalente
+24,Rio Grande do Norte,2017,69.16,Pentavalente
+25,Paraíba,2017,82.47,Pentavalente
+26,Pernambuco,2017,86.12,Pentavalente
+27,Alagoas,2017,82.14,Pentavalente
+28,Sergipe,2017,80.27,Pentavalente
+29,Bahia,2017,76.94,Pentavalente
+31,Minas Gerais,2017,87.7,Pentavalente
+32,Espírito Santo,2017,82.58,Pentavalente
+33,Rio de Janeiro,2017,93.53,Pentavalente
+35,São Paulo,2017,87.75,Pentavalente
+41,Paraná,2017,90.95,Pentavalente
+42,Santa Catarina,2017,88.95,Pentavalente
+43,Rio Grande do Sul,2017,83.83,Pentavalente
+50,Mato Grosso do Sul,2017,93.24,Pentavalente
+51,Mato Grosso,2017,85.07,Pentavalente
+52,Goiás,2017,78.46,Pentavalente
+53,Distrito Federal,2017,85.5,Pentavalente
+11,Rondônia,2018,100.66,Pentavalente
+12,Acre,2018,70.19,Pentavalente
+13,Amazonas,2018,79.41,Pentavalente
+14,Roraima,2018,83.77,Pentavalente
+15,Pará,2018,57.75,Pentavalente
+16,Amapá,2018,64.23,Pentavalente
+17,Tocantins,2018,90.72,Pentavalente
+21,Maranhão,2018,80.31,Pentavalente
+22,Piauí,2018,86.22,Pentavalente
+23,Ceará,2018,107.66,Pentavalente
+24,Rio Grande do Norte,2018,89.61,Pentavalente
+25,Paraíba,2018,91.45,Pentavalente
+26,Pernambuco,2018,94.7,Pentavalente
+27,Alagoas,2018,98.14,Pentavalente
+28,Sergipe,2018,91.7,Pentavalente
+29,Bahia,2018,77.02,Pentavalente
+31,Minas Gerais,2018,98.61,Pentavalente
+32,Espírito Santo,2018,90.42,Pentavalente
+33,Rio de Janeiro,2018,88.3,Pentavalente
+35,São Paulo,2018,91.99,Pentavalente
+41,Paraná,2018,91.28,Pentavalente
+42,Santa Catarina,2018,94.57,Pentavalente
+43,Rio Grande do Sul,2018,85.28,Pentavalente
+50,Mato Grosso do Sul,2018,95.26,Pentavalente
+51,Mato Grosso,2018,89.26,Pentavalente
+52,Goiás,2018,84.06,Pentavalente
+53,Distrito Federal,2018,87.42,Pentavalente
+11,Rondônia,2019,90.07,Pentavalente
+12,Acre,2019,76.53,Pentavalente
+13,Amazonas,2019,78.71,Pentavalente
+14,Roraima,2019,64.16,Pentavalente
+15,Pará,2019,62.45,Pentavalente
+16,Amapá,2019,53.36,Pentavalente
+17,Tocantins,2019,76.82,Pentavalente
+21,Maranhão,2019,58.02,Pentavalente
+22,Piauí,2019,68.48,Pentavalente
+23,Ceará,2019,79.97,Pentavalente
+24,Rio Grande do Norte,2019,69.13,Pentavalente
+25,Paraíba,2019,81.97,Pentavalente
+26,Pernambuco,2019,73.69,Pentavalente
+27,Alagoas,2019,78.9,Pentavalente
+28,Sergipe,2019,77.29,Pentavalente
+29,Bahia,2019,66.88,Pentavalente
+31,Minas Gerais,2019,74.89,Pentavalente
+32,Espírito Santo,2019,67.08,Pentavalente
+33,Rio de Janeiro,2019,55.19,Pentavalente
+35,São Paulo,2019,72.29,Pentavalente
+41,Paraná,2019,79.6,Pentavalente
+42,Santa Catarina,2019,72.06,Pentavalente
+43,Rio Grande do Sul,2019,72.0,Pentavalente
+50,Mato Grosso do Sul,2019,86.26,Pentavalente
+51,Mato Grosso,2019,72.62,Pentavalente
+52,Goiás,2019,64.35,Pentavalente
+53,Distrito Federal,2019,70.78,Pentavalente
+11,Rondônia,2020,85.89,Pentavalente
+12,Acre,2020,64.78,Pentavalente
+13,Amazonas,2020,66.05,Pentavalente
+14,Roraima,2020,77.12,Pentavalente
+15,Pará,2020,56.14,Pentavalente
+16,Amapá,2020,39.7,Pentavalente
+17,Tocantins,2020,87.9,Pentavalente
+21,Maranhão,2020,51.83,Pentavalente
+22,Piauí,2020,62.3,Pentavalente
+23,Ceará,2020,84.57,Pentavalente
+24,Rio Grande do Norte,2020,67.9,Pentavalente
+25,Paraíba,2020,73.65,Pentavalente
+26,Pernambuco,2020,70.82,Pentavalente
+27,Alagoas,2020,77.51,Pentavalente
+28,Sergipe,2020,74.21,Pentavalente
+29,Bahia,2020,69.55,Pentavalente
+31,Minas Gerais,2020,89.31,Pentavalente
+32,Espírito Santo,2020,88.18,Pentavalente
+33,Rio de Janeiro,2020,56.83,Pentavalente
+35,São Paulo,2020,90.09,Pentavalente
+41,Paraná,2020,88.59,Pentavalente
+42,Santa Catarina,2020,88.4,Pentavalente
+43,Rio Grande do Sul,2020,87.04,Pentavalente
+50,Mato Grosso do Sul,2020,83.65,Pentavalente
+51,Mato Grosso,2020,77.37,Pentavalente
+52,Goiás,2020,76.56,Pentavalente
+53,Distrito Federal,2020,89.54,Pentavalente
+11,Rondônia,2021,74.69,Pentavalente
+12,Acre,2021,62.21,Pentavalente
+13,Amazonas,2021,67.94,Pentavalente
+14,Roraima,2021,52.09,Pentavalente
+15,Pará,2021,56.57,Pentavalente
+16,Amapá,2021,45.5,Pentavalente
+17,Tocantins,2021,80.54,Pentavalente
+21,Maranhão,2021,62.85,Pentavalente
+22,Piauí,2021,75.85,Pentavalente
+23,Ceará,2021,75.21,Pentavalente
+24,Rio Grande do Norte,2021,72.21,Pentavalente
+25,Paraíba,2021,71.14,Pentavalente
+26,Pernambuco,2021,69.24,Pentavalente
+27,Alagoas,2021,78.13,Pentavalente
+28,Sergipe,2021,72.72,Pentavalente
+29,Bahia,2021,64.29,Pentavalente
+31,Minas Gerais,2021,77.7,Pentavalente
+32,Espírito Santo,2021,77.92,Pentavalente
+33,Rio de Janeiro,2021,56.17,Pentavalente
+35,São Paulo,2021,74.32,Pentavalente
+41,Paraná,2021,81.89,Pentavalente
+42,Santa Catarina,2021,85.28,Pentavalente
+43,Rio Grande do Sul,2021,76.56,Pentavalente
+50,Mato Grosso do Sul,2021,75.93,Pentavalente
+51,Mato Grosso,2021,76.23,Pentavalente
+52,Goiás,2021,73.32,Pentavalente
+53,Distrito Federal,2021,73.32,Pentavalente
+11,Rondônia,2022,82.7,Pentavalente
+12,Acre,2022,72.34,Pentavalente
+13,Amazonas,2022,78.75,Pentavalente
+14,Roraima,2022,60.63,Pentavalente
+15,Pará,2022,66.08,Pentavalente
+16,Amapá,2022,52.59,Pentavalente
+17,Tocantins,2022,85.14,Pentavalente
+21,Maranhão,2022,74.56,Pentavalente
+22,Piauí,2022,87.37,Pentavalente
+23,Ceará,2022,86.65,Pentavalente
+24,Rio Grande do Norte,2022,75.79,Pentavalente
+25,Paraíba,2022,72.64,Pentavalente
+26,Pernambuco,2022,77.02,Pentavalente
+27,Alagoas,2022,86.67,Pentavalente
+28,Sergipe,2022,80.16,Pentavalente
+29,Bahia,2022,75.82,Pentavalente
+31,Minas Gerais,2022,82.9,Pentavalente
+32,Espírito Santo,2022,79.27,Pentavalente
+33,Rio de Janeiro,2022,58.03,Pentavalente
+35,São Paulo,2022,76.76,Pentavalente
+41,Paraná,2022,84.84,Pentavalente
+42,Santa Catarina,2022,87.28,Pentavalente
+43,Rio Grande do Sul,2022,78.62,Pentavalente
+50,Mato Grosso do Sul,2022,86.1,Pentavalente
+51,Mato Grosso,2022,85.86,Pentavalente
+52,Goiás,2022,76.13,Pentavalente
+53,Distrito Federal,2022,78.28,Pentavalente
