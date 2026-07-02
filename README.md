@@ -1,14 +1,10 @@
 # Cobertura Vacinal no Brasil: Análise Regional e Temporal
 
-> Análise da evolução da cobertura vacinal infantil no Brasil, identificando desigualdades regionais e possíveis fatores associados à queda pós-pandemia.
+> Análise da evolução da cobertura vacinal infantil no Brasil, investigando possíveis causas por trás da queda pós-pandemia: investimento público, condição socioeconômica e hesitação vacinal.
 
 ## 📌 Contexto
 
-A cobertura vacinal infantil no Brasil vem apresentando queda nos últimos anos, especialmente após a pandemia de COVID-19. Este projeto investiga:
-
-- Como a cobertura vacinal evoluiu por estado/região entre 2013 e 2022
-- Quais vacinas tiveram as quedas mais acentuadas
-- Quais fatores estão mais associados à queda: investimento público, condição socioeconômica ou hesitação vacinal
+A cobertura vacinal infantil no Brasil vem apresentando queda nos últimos anos, especialmente após a pandemia de COVID-19. Este projeto vai além de descrever a queda — investiga **por que** ela aconteceu, testando três hipóteses com dados reais.
 
 ## 🎯 Perguntas de negócio
 
@@ -51,7 +47,7 @@ Exemplo de resultado (ranking de queda por estado):
 | Paraíba | 93,80% | 79,44% | -14,36 p.p. | 2º |
 | Amapá | 78,47% | 64,18% | -14,29 p.p. | 3º |
 
-## 💰 Gasto em saúde vs. Cobertura vacinal
+## 💰 Hipótese 1: Falta de investimento público — REFUTADA
 
 Foi investigada a hipótese de que o corte de investimento em saúde explicaria a queda na cobertura vacinal. **Os dados não confirmam essa hipótese:**
 
@@ -64,28 +60,28 @@ Foi investigada a hipótese de que o corte de investimento em saúde explicaria 
 
 **Limitação:** este é o gasto total em saúde, não investimento específico em imunização (dado não disponível publicamente de forma estruturada por estado/ano).
 
-## 🔍 Hesitação vacinal: o fator mais associado à queda
+## 🔍 Hipótese 2: Hesitação vacinal — CONFIRMADA
 
 Foi investigada a hipótese de que a queda na cobertura vacinal está associada ao aumento da desconfiança/hesitação em relação às vacinas, usando o volume de buscas no Google por termos como "vacina faz mal" como indicador (proxy) de interesse público no tema.
 
-**Resultado: essa foi a variável com correlação mais forte entre todas as investigadas no projeto.**
+**Resultado: essa foi a variável com a associação mais forte encontrada no projeto.**
 
 - A correlação entre o interesse de busca por "vacina faz mal" e a cobertura vacinal nacional foi de **-0,76** — bem mais forte que a correlação com gasto em saúde (-0,38)
 - O interesse de busca ficou estável e baixo entre 2013 e 2020, e **disparou em 2021** (aumento de quase 1.500% em relação a 2013), coincidindo com o período de maior queda na cobertura vacinal
 
 ![Hesitação vacinal vs cobertura](dashboard/grafico_hesitacao_vacinal.png)
 
-**Conclusão:** entre os três fatores investigados neste projeto (verba pública, indicadores socioeconômicos e hesitação vacinal), a hesitação vacinal apresentou a associação mais forte com a queda de cobertura — sugerindo que desinformação e desconfiança podem ter tido papel mais relevante do que questões orçamentárias.
-
-**Limitação:** volume de busca no Google é um proxy (indicador indireto) de opinião pública, não uma medição direta de hesitação vacinal. Também não é possível analisar essa variável por estado, apenas em nível nacional/temporal. Correlação não implica causalidade.
-
 ### Validação estatística
 
 Para confirmar que essa relação não é coincidência, foi feito um teste estatístico (regressão linear). O resultado:
 
-- O interesse de busca por "vacina faz mal" explica **quase 58%** da queda na cobertura vacinal ao longo dos anos
+- O interesse de busca por "vacina faz mal" explica **quase 58%** da variação na cobertura vacinal ao longo dos anos (R² = 0,579)
 - A cada aumento de 1 ponto no interesse de busca, a cobertura vacinal cai, em média, **0,5 ponto percentual**
-- O teste confirma que essa relação é estatisticamente confiável (não é coincidência)
+- O teste confirma que essa relação é estatisticamente significativa (p-valor = 0,011), ou seja, a chance de ser coincidência é baixa (cerca de 1,1%)
+
+**Conclusão:** entre os fatores investigados neste projeto, a hesitação vacinal apresentou a associação mais forte e estatisticamente mais robusta com a queda de cobertura — sugerindo que desinformação e desconfiança tiveram papel mais relevante do que questões orçamentárias.
+
+**Limitação:** volume de busca no Google é um proxy (indicador indireto) de opinião pública, não uma medição direta de hesitação vacinal. Também não é possível analisar essa variável por estado, apenas em nível nacional/temporal. Correlação (mesmo com validação estatística) não implica causalidade comprovada.
 
 ## 🗂️ Fontes de dados
 
@@ -97,8 +93,9 @@ Para confirmar que essa relação não é coincidência, foi feito um teste esta
 
 ## 🛠️ Tecnologias
 
-- Python (Pandas, Matplotlib, Seaborn, Plotly)
-- SQL (SQLite) — window functions (LAG, RANK), CTEs, médias móveis
+- **Python**: Pandas, Matplotlib, Seaborn, Plotly
+- **Estatística**: Statsmodels (regressão linear, OLS)
+- **SQL**: SQLite — window functions (LAG, RANK), CTEs, médias móveis
 
 ## 📁 Estrutura do projeto
 
@@ -127,4 +124,4 @@ Este projeto está sob a licença MIT.
 
 ---
 
-**Autor:** Gabriel — [www.linkedin.com/in/gabrielhamad]
+**Autor:** Gabriel —(https://www.linkedin.com/in/gabrielhamad)
