@@ -8,13 +8,14 @@ A cobertura vacinal infantil no Brasil vem apresentando queda nos últimos anos,
 
 - Como a cobertura vacinal evoluiu por estado/região entre 2013 e 2022
 - Quais vacinas tiveram as quedas mais acentuadas
-- Se há correlação entre cobertura vacinal e indicadores socioeconômicos municipais
+- Quais fatores estão mais associados à queda: investimento público, condição socioeconômica ou hesitação vacinal
 
 ## 🎯 Perguntas de negócio
 
 1. Quais estados apresentam menor cobertura vacinal hoje?
 2. A queda foi generalizada ou concentrada em regiões específicas?
-3. Existe relação entre cobertura vacinal e indicadores de desenvolvimento?
+3. A queda está relacionada à falta de investimento público em saúde?
+4. A hesitação vacinal (desconfiança/desinformação) está associada à queda de cobertura?
 
 ## 📊 Principais insights
 
@@ -34,15 +35,96 @@ A cobertura vacinal infantil no Brasil vem apresentando queda nos últimos anos,
 
 ![Mapa de cobertura vacinal por estado](dashboard/mapa_cobertura_2022.png)
 
+## 🗃️ Análise em SQL
+
+Além da análise em Python, o projeto inclui consultas SQL avançadas (window functions) rodadas sobre um banco SQLite, disponíveis em [`sql/queries.sql`](sql/queries.sql):
+
+- **Variação ano a ano por estado** — usando `LAG()` para comparar cada ano com o anterior
+- **Ranking de queda de cobertura (2019-2022)** — combinando CTE (`WITH`) e `RANK()`
+- **Média móvel de 3 anos** — suavizando flutuações para revelar a tendência real de queda
+
+Exemplo de resultado (ranking de queda por estado):
+
+| UF | Cobertura 2019 | Cobertura 2022 | Variação | Ranking |
+|---|---|---|---|---|
+| Roraima | 85,25% | 68,22% | -17,03 p.p. | 1º |
+| Paraíba | 93,80% | 79,44% | -14,36 p.p. | 2º |
+| Amapá | 78,47% | 64,18% | -14,29 p.p. | 3º |
+
+## 💰 Gasto em saúde vs. Cobertura vacinal
+
+Foi investigada a hipótese de que o corte de investimento em saúde explicaria a queda na cobertura vacinal. **Os dados não confirmam essa hipótese:**
+
+- O gasto em saúde per capita **subiu de forma consistente** entre 2013 e 2022, enquanto a cobertura vacinal **caiu** no mesmo período
+- A correlação entre as duas variáveis foi negativa em **todos os 26 estados analisados** (entre -0,33 e -0,90), reforçando que não é um caso isolado de poucos estados
+
+![Gasto em saúde vs cobertura vacinal](dashboard/grafico_correlacao_gasto_cobertura.png)
+
+**Conclusão:** a queda na cobertura vacinal não parece estar relacionada à falta de investimento público em saúde.
+
+**Limitação:** este é o gasto total em saúde, não investimento específico em imunização (dado não disponível publicamente de forma estruturada por estado/ano).
+
+## 🔍 Hesitação vacinal: o fator mais associado à queda
+
+Foi investigada a hipótese de que a queda na cobertura vacinal está associada ao aumento da desconfiança/hesitação em relação às vacinas, usando o volume de buscas no Google por termos como "vacina faz mal" como indicador (proxy) de interesse público no tema.
+
+**Resultado: essa foi a variável com correlação mais forte entre todas as investigadas no projeto.**
+
+- A correlação entre o interesse de busca por "vacina faz mal" e a cobertura vacinal nacional foi de **-0,76** — bem mais forte que a correlação com gasto em saúde (-0,38)
+- O interesse de busca ficou estável e baixo entre 2013 e 2020, e **disparou em 2021** (aumento de quase 1.500% em relação a 2013), coincidindo com o período de maior queda na cobertura vacinal
+
+![Hesitação vacinal vs cobertura](dashboard/grafico_hesitacao_vacinal.png)
+
+**Conclusão:** entre os três fatores investigados neste projeto (verba pública, indicadores socioeconômicos e hesitação vacinal), a hesitação vacinal apresentou a associação mais forte com a queda de cobertura — sugerindo que desinformação e desconfiança podem ter tido papel mais relevante do que questões orçamentárias.
+
+**Limitação:** volume de busca no Google é um proxy (indicador indireto) de opinião pública, não uma medição direta de hesitação vacinal. Também não é possível analisar essa variável por estado, apenas em nível nacional/temporal. Correlação não implica causalidade.
+
+### Validação estatística
+
+Para confirmar que essa relação não é coincidência, foi feito um teste estatístico (regressão linear). O resultado:
+
+- O interesse de busca por "vacina faz mal" explica **quase 58%** da queda na cobertura vacinal ao longo dos anos
+- A cada aumento de 1 ponto no interesse de busca, a cobertura vacinal cai, em média, **0,5 ponto percentual**
+- O teste confirma que essa relação é estatisticamente confiável (não é coincidência)
+
 ## 🗂️ Fontes de dados
 
 | Fonte | Descrição | Link |
 |---|---|---|
 | DATASUS/TabNet | Cobertura vacinal por estado/ano | http://tabnet.datasus.gov.br |
+| SIOPS/DATASUS | Gasto em saúde per capita por estado/ano | http://siops-asp.datasus.gov.br |
+| Google Trends | Volume de busca sobre hesitação vacinal | https://trends.google.com |
 
 ## 🛠️ Tecnologias
 
 - Python (Pandas, Matplotlib, Seaborn, Plotly)
-- SQL (SQLite)
+- SQL (SQLite) — window functions (LAG, RANK), CTEs, médias móveis
 
 ## 📁 Estrutura do projeto
+
+- `data/` — dados brutos e tratados (raw não versionado)
+- `notebooks/` — exploração e análise passo a passo
+- `src/` — código reutilizável (limpeza, métricas, gráficos)
+- `sql/` — queries analíticas com window functions
+- `tests/` — testes das funções principais
+- `dashboard/` — gráficos gerados
+
+## ▶️ Como reproduzir
+
+```bash
+git clone https://github.com/Gabrielhamad/cobertura-vacinal-brasil.git
+cd cobertura-vacinal-brasil
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Os notebooks em `notebooks/` seguem a ordem numérica do processo analítico.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+**Autor:** Gabriel — [www.linkedin.com/in/gabrielhamad]
