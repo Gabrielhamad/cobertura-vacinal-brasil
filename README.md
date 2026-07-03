@@ -43,6 +43,15 @@ Antes da análise, os dados brutos passaram pelas seguintes etapas de tratamento
 
 ![Mapa de cobertura vacinal por estado](dashboard/mapa_cobertura_2022.png)
 
+### Dashboard interativo
+
+Além dos gráficos estáticos, o projeto inclui um dashboard interativo construído com Streamlit, permitindo filtrar por vacina e período, visualizar KPIs em tempo real e explorar os dados detalhados.
+
+**Como rodar localmente:**
+```bash
+streamlit run dashboard_app.py
+```
+
 ## 🗃️ Análise em SQL
 
 Além da análise em Python, o projeto inclui consultas SQL avançadas (window functions) rodadas sobre um banco SQLite, disponíveis em [`sql/queries.sql`](sql/queries.sql):
@@ -90,6 +99,9 @@ Para confirmar que essa relação não é coincidência, foi feito um teste esta
 - O interesse de busca por "vacina faz mal" explica **quase 58%** da variação na cobertura vacinal ao longo dos anos (R² = 0,579)
 - A cada aumento de 1 ponto no interesse de busca, a cobertura vacinal cai, em média, **0,5 ponto percentual**
 - O teste confirma que essa relação é estatisticamente significativa (p-valor = 0,011), ou seja, a chance de ser coincidência é baixa (cerca de 1,1%)
+
+Foi testado um modelo combinando gasto em saúde e hesitação vacinal. Juntas, as duas variáveis explicam 73% da cobertura vacinal (R²=0,730), mas nenhuma delas é individualmente significativa nesse modelo combinado — o que indica que elas compartilham parte da informação que carregam ao longo do tempo. Com apenas 10 anos de dados disponíveis, não é possível isolar com precisão o efeito de cada variável separadamente. A análise mais robusta do projeto continua sendo a hesitação vacinal avaliada isoladamente, que apresentou correlação forte (-0,76) e significância estatística clara (R²=0,58, p=0,011).
+
 
 **Conclusão:** os resultados fornecem evidências consistentes de associação entre a hesitação vacinal e a queda da cobertura vacinal — a correlação mais forte entre todos os fatores investigados, validada estatisticamente (R²=0,58, p=0,011). No entanto, por se tratar de dados observacionais com uma única variável proxy, não é possível afirmar causalidade. Estudos com desenho experimental ou dados individualizados seriam necessários para confirmar uma relação causal.
 
