@@ -45,11 +45,9 @@ Antes da análise, os dados brutos passaram pelas seguintes etapas de tratamento
 
 ### Dashboard interativo
 
-Além dos gráficos estáticos, o projeto inclui um dashboard interativo construído com Streamlit, permitindo filtrar por vacina e período, visualizar KPIs em tempo real e explorar os dados detalhados.
+Além dos gráficos estáticos, o projeto inclui um dashboard interativo construído com Streamlit.
 
-**Como rodar localmente:**
-```bash
-streamlit run dashboard_app.py
+🔗 **Acesse o dashboard online:** https://cobertura-vacinal-brasil.streamlit.app/
 ```
 
 ## 🗃️ Análise em SQL
