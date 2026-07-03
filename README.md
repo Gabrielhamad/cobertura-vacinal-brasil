@@ -13,6 +13,18 @@ A cobertura vacinal infantil no Brasil vem apresentando queda nos últimos anos,
 3. A queda está relacionada à falta de investimento público em saúde?
 4. A hesitação vacinal (desconfiança/desinformação) está associada à queda de cobertura?
 
+
+## 🧹 Tratamento de dados
+
+Antes da análise, os dados brutos passaram pelas seguintes etapas de tratamento:
+
+- **Valores ausentes/inconsistentes**: identificada e removida uma linha de "Total Brasil" presente em todas as tabelas do TabNet, que somava os estados e distorceria as agregações regionais
+- **Duplicatas**: verificado que não havia duplicidade de UF/ano/vacina após a consolidação
+- **Padronização**: nomes de colunas normalizados (remoção de espaços e acentos), conversão de separador decimal (vírgula → ponto), e encoding ajustado (latin1 → utf-8)
+- **Transformação estrutural**: dados convertidos do formato largo (um ano por coluna) para o formato longo (uma linha por UF/ano/vacina), facilitando agregações e junções
+- **Validação cruzada**: os totais pós-tratamento (27 UFs × 10 anos × 4 vacinas = 1.080 linhas) foram conferidos manualmente para garantir integridade
+- **Correção de fonte**: identificado e corrigido um erro de seleção de dado na consulta original da vacina Tríplice viral (dose incorreta selecionada no TabNet), validado por comparação com literatura especializada antes de prosseguir com a análise
+
 ## 📊 Principais insights
 
 - **Queda generalizada, mas desigual entre vacinas**: a Tríplice viral teve a maior queda entre 2019 e 2022 (-12,4 p.p., de 93,1% para 80,7%), seguida pela Poliomielite (-7,0 p.p.). BCG e Pentavalente, por outro lado, tiveram leve recuperação no período.
@@ -60,7 +72,7 @@ Foi investigada a hipótese de que o corte de investimento em saúde explicaria 
 
 **Limitação:** este é o gasto total em saúde, não investimento específico em imunização (dado não disponível publicamente de forma estruturada por estado/ano).
 
-## 🔍 Hipótese 2: Hesitação vacinal — CONFIRMADA
+## 🔍 Hipótese 2: Hesitação vacinal — Evidência forte de associação
 
 Foi investigada a hipótese de que a queda na cobertura vacinal está associada ao aumento da desconfiança/hesitação em relação às vacinas, usando o volume de buscas no Google por termos como "vacina faz mal" como indicador (proxy) de interesse público no tema.
 
@@ -79,7 +91,7 @@ Para confirmar que essa relação não é coincidência, foi feito um teste esta
 - A cada aumento de 1 ponto no interesse de busca, a cobertura vacinal cai, em média, **0,5 ponto percentual**
 - O teste confirma que essa relação é estatisticamente significativa (p-valor = 0,011), ou seja, a chance de ser coincidência é baixa (cerca de 1,1%)
 
-**Conclusão:** entre os fatores investigados neste projeto, a hesitação vacinal apresentou a associação mais forte e estatisticamente mais robusta com a queda de cobertura — sugerindo que desinformação e desconfiança tiveram papel mais relevante do que questões orçamentárias.
+**Conclusão:** os resultados fornecem evidências consistentes de associação entre a hesitação vacinal e a queda da cobertura vacinal — a correlação mais forte entre todos os fatores investigados, validada estatisticamente (R²=0,58, p=0,011). No entanto, por se tratar de dados observacionais com uma única variável proxy, não é possível afirmar causalidade. Estudos com desenho experimental ou dados individualizados seriam necessários para confirmar uma relação causal.
 
 **Limitação:** volume de busca no Google é um proxy (indicador indireto) de opinião pública, não uma medição direta de hesitação vacinal. Também não é possível analisar essa variável por estado, apenas em nível nacional/temporal. Correlação (mesmo com validação estatística) não implica causalidade comprovada.
 
@@ -105,6 +117,22 @@ Para confirmar que essa relação não é coincidência, foi feito um teste esta
 - `sql/` — queries analíticas com window functions
 - `tests/` — testes das funções principais
 - `dashboard/` — gráficos gerados
+
+## 🔄 Pipeline do projeto
+
+```
+Coleta (TabNet, SIOPS, Google Trends)
+        ↓
+Limpeza e tratamento (Pandas)
+        ↓
+Análise exploratória (gráficos, mapas)
+        ↓
+Consultas SQL (window functions)
+        ↓
+Modelagem estatística (regressão linear)
+        ↓
+Conclusões e validação de hipóteses
+```
 
 ## ▶️ Como reproduzir
 
