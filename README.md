@@ -48,7 +48,6 @@ Antes da análise, os dados brutos passaram pelas seguintes etapas de tratamento
 Além dos gráficos estáticos, o projeto inclui um dashboard interativo construído com Streamlit.
 
 🔗 **Acesse o dashboard online:** https://cobertura-vacinal-brasil.streamlit.app/
-```
 
 ## 🗃️ Análise em SQL
 
@@ -130,7 +129,7 @@ Foi testado um modelo combinando gasto em saúde e hesitação vacinal. Juntas, 
 
 ## 🔄 Pipeline do projeto
 
-```
+
 Coleta (TabNet, SIOPS, Google Trends)
         ↓
 Limpeza e tratamento (Pandas)
